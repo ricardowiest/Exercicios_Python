@@ -20,6 +20,6 @@ for num in range(n):
         sorteados.sort()
         cont += 1
     soma += cont
-    print(f'Resultado do teste {num}: {cont} tentativas.')
+    print(f'\033[1:31mResultado do teste {num}: {cont} tentativas.\033[m')
 soma /= n
 print (f'A média dos resultados foram: {soma}')
