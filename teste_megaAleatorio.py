@@ -15,7 +15,7 @@ for num in range(n):
     sorteados = []
     cont = 0
     while m_jogo != sorteados:
-        mega_sort = mega_sena.copy()
+        mega_sort = mega_sena.copy()   #ok
         sorteados = []
         for c in range(6):
             num_sorteados = random.choice(mega_sort)
