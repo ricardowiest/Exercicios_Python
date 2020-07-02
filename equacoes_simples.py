@@ -11,6 +11,7 @@ def soma(*lista_):
         total_soma = sum(c)
     return total_soma
 
+
 lista = list()
 esc = 'S'
 while esc == 'S':
