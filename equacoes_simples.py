@@ -1,7 +1,9 @@
+import numpy
+
 def multi(*lista_):
     total_multi = 1
     for c in lista_:
-        total_multi *= c
+        total_multi *=  numpy.prod(c)
     return total_multi
 
 
