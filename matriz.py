@@ -1,7 +1,5 @@
 import random
 
-matriz = []
-
 
 def init_matriz(matriz):
     lista = list(range(16))
@@ -14,8 +12,8 @@ def init_matriz(matriz):
         matriz.append(linha)
 
 
-for i in range (3):
-    matriz = []
-    init_matriz(matriz)
-    print(matriz)
+
+matriz = []
+init_matriz(matriz)
+print(matriz)
     
